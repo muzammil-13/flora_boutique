@@ -2,6 +2,8 @@
 
 A modern, responsive website for Flora Boutique - an elegant women's fashion store specializing in traditional and contemporary clothing.
 
+#### Deploy Status: [![Netlify Status](https://api.netlify.com/api/v1/badges/4eacef85-d74f-4249-aafc-f207bd24e796/deploy-status)](https://app.netlify.com/sites/floraboutiqueetpa/deploys)
+
 ## Features
 
 - Clean, modern design with smooth animations
@@ -33,7 +35,6 @@ flora_boutique/
 └── js/ 
 └── script.js
 ```
-
 
 ## Getting Started
 
