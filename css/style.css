@@ -187,48 +187,6 @@ nav {
     transform: translateY(-3px);
 }
 
-.instagram-feed {
-    padding: 5rem 2rem;
-    background: linear-gradient(to bottom right, var(--lilac), var(--purpureus));
-    text-align: center;
-    color: var(--white);
-}
-
-.instagram-cta {
-    max-width: 600px;
-    margin: 3rem auto;
-    padding: 2rem;
-    background: rgba(255,255,255,0.1);
-    backdrop-filter: blur(10px);
-    border-radius: 20px;
-}
-
-.social-buttons {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    margin-top: 2rem;
-}
-
-.insta-follow-btn, .insta-dm-btn {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 1rem 2rem;
-    border-radius: 30px;
-    background: var(--white);
-    color: var(--purpureus);
-    text-decoration: none;
-    font-weight: 500;
-    transition: transform 0.3s ease;
-}
-
-.insta-follow-btn:hover, .insta-dm-btn:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-}
-
-
 
 /* About Section */
 .about {
@@ -247,6 +205,87 @@ nav {
     margin: 0 auto;
     color: var(--white);
 }
+
+/* instagram mockup */
+.instagram-profile {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.profile-pic img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid #e1306c;
+    padding: 2px;
+}
+
+.profile-info h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.profile-stats {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 0.9rem;
+}
+
+.profile-bio {
+    padding-top: 1rem;
+    border-top: 1px solid #dbdbdb;
+}
+
+.business-type {
+    color: #666;
+    margin: 0.5rem 0;
+}
+
+.bio-points {
+    list-style: none;
+    margin: 1rem 0;
+}
+
+.bio-points li {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+.profile-actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.follow-btn, .message-btn {
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.follow-btn {
+    background: #0095f6;
+    color: white;
+}
+
+.message-btn {
+    background: #efefef;
+    color: #333;
+}
+
 
 /* Contact Section */
 .contact {
