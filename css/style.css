@@ -18,6 +18,29 @@ body {
     color: var(--eerie-black);
 }
 
+h1 {
+    animation: colorCycle 8s infinite;
+  }
+  
+  @keyframes colorCycle {
+    0% {
+      color: var(--white);
+    }
+    25% {
+      color: var(--purpureus);
+    }
+    50% {
+      color: var(--lilac);
+    }
+    75% {
+      color: var(--battleship-gray);
+    }
+    100% {
+      color: var(--eerie-black);
+    }
+  }
+  
+
 h1, h2, h3 {
     font-family: 'Playfair Display', serif;
 }
@@ -164,22 +187,27 @@ nav {
 
 .view-more {
     text-align: center;
-    margin: 40px 0;
+    margin: 40px auto;
+    grid-column: 1 / -1;  /* Spans across all columns */
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .view-more-btn {
     display: inline-block;
     padding: 15px 30px;
-    background-color: #333;
+    background-color: var(--purpureus);
     color: white;
     text-decoration: none;
     border-radius: 5px;
     font-family: 'Poppins', sans-serif;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .view-more-btn:hover {
-    background-color: #555;
+    background-color: var(--lilac);
+    transform: translateY(-3px);
 }
 
 
@@ -200,6 +228,87 @@ nav {
     margin: 0 auto;
     color: var(--white);
 }
+
+/* instagram mockup */
+.instagram-profile {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.profile-pic img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid #e1306c;
+    padding: 2px;
+}
+
+.profile-info h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.profile-stats {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 0.9rem;
+}
+
+.profile-bio {
+    padding-top: 1rem;
+    border-top: 1px solid #dbdbdb;
+}
+
+.business-type {
+    color: #666;
+    margin: 0.5rem 0;
+}
+
+.bio-points {
+    list-style: none;
+    margin: 1rem 0;
+}
+
+.bio-points li {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+.profile-actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.follow-btn, .message-btn {
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.follow-btn {
+    background: #0095f6;
+    color: white;
+}
+
+.message-btn {
+    background: #efefef;
+    color: #333;
+}
+
 
 /* Contact Section */
 .contact {
@@ -277,6 +386,15 @@ nav {
     color: var(--purpureus);
     font-size: 1.2rem;
 }
+
+.map-container {
+    margin-top: 2rem;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+
 
 /* Footer */
 footer {
