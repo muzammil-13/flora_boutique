@@ -75,6 +75,7 @@ nav {
 /* Hero Section */
 .hero {
     height: 100vh;
+    width: 100%;
     position: relative;
     display: flex;
     align-items: center;
@@ -94,11 +95,14 @@ nav {
 }
 
 .hero-content {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0 2rem;
-    z-index: 1;
+    z-index: 2;
 }
 
 .hero h1 {
@@ -157,6 +161,27 @@ nav {
     border-radius: 10px;
     margin-bottom: 1rem;
 }
+
+.view-more {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.view-more-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.view-more-btn:hover {
+    background-color: #555;
+}
+
 
 /* About Section */
 .about {
