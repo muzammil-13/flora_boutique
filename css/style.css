@@ -164,23 +164,29 @@ nav {
 
 .view-more {
     text-align: center;
-    margin: 40px 0;
+    margin: 40px auto;
+    grid-column: 1 / -1;  /* Spans across all columns */
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .view-more-btn {
     display: inline-block;
     padding: 15px 30px;
-    background-color: #333;
+    background-color: var(--purpureus);
     color: white;
     text-decoration: none;
     border-radius: 5px;
     font-family: 'Poppins', sans-serif;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .view-more-btn:hover {
-    background-color: #555;
+    background-color: var(--lilac);
+    transform: translateY(-3px);
 }
+
 
 
 /* About Section */
