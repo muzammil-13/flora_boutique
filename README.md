@@ -13,6 +13,9 @@ A modern, responsive website for Flora Boutique - an elegant women's fashion sto
 - Direct messaging integration with WhatsApp and Instagram
 - Business hours display
 - Custom color scheme with elegant purple and lilac tones
+- SEO optimized for local search visibility
+- Google Analytics integration
+- Mobile-first approach
 
 ## Tech Stack
 
@@ -20,6 +23,7 @@ A modern, responsive website for Flora Boutique - an elegant women's fashion sto
 - CSS3
 - Vanilla JavaScript
 - Google Fonts (Playfair Display, Poppins)
+- Google Analytics
 
 ## Project Structure
 
@@ -41,7 +45,7 @@ flora_boutique/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/flora_boutique.git
+git clone https://github.com/muzammil-13/flora_boutique.git
 ```
 
 2. Open `index.html` in your browser to view the website
