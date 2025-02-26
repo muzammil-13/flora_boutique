@@ -18,6 +18,10 @@ A modern, responsive website for Flora Boutique - an elegant women's fashion sto
 - Mobile-first approach
 - Interactive Google Maps location
 - Local business optimization
+- Instagram Profile Integration
+- Instagram Feed Display
+- Social Media Optimization
+- Direct Shopping Links
 
 ## Tech Stack
 
@@ -27,6 +31,9 @@ A modern, responsive website for Flora Boutique - an elegant women's fashion sto
 - Google Fonts (Playfair Display, Poppins)
 - Google Analytics
 - Google Maps Integration
+- Instagram API Integration
+
+## Project Structure
 
 ## Project Structure
 
