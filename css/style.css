@@ -187,6 +187,47 @@ nav {
     transform: translateY(-3px);
 }
 
+.instagram-feed {
+    padding: 5rem 2rem;
+    background: linear-gradient(to bottom right, var(--lilac), var(--purpureus));
+    text-align: center;
+    color: var(--white);
+}
+
+.instagram-cta {
+    max-width: 600px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+}
+
+.social-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.insta-follow-btn, .insta-dm-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    background: var(--white);
+    color: var(--purpureus);
+    text-decoration: none;
+    font-weight: 500;
+    transition: transform 0.3s ease;
+}
+
+.insta-follow-btn:hover, .insta-dm-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
 
 
 /* About Section */
