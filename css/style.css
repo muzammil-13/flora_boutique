@@ -204,41 +204,80 @@ nav {
 /* Contact Section */
 .contact {
     padding: 5rem 2rem;
-    background-color: var(--white);
+    background: linear-gradient(to bottom, var(--white), #f8f8f8);
 }
 
 .contact h2 {
     text-align: center;
     color: var(--purpureus);
     margin-bottom: 3rem;
+    font-size: 2.5rem;
+}
+
+.contact h3 {
+    color: var(--purpureus);
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
 }
 
 .contact-options {
     display: flex;
     justify-content: center;
     gap: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 
 .contact-btn {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
-    padding: 1rem 2rem;
+    gap: 1rem;
+    padding: 1.2rem 2.5rem;
     border-radius: 30px;
-    text-decoration: none;
-    color: var(--white);
-    transition: transform 0.3s ease;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transform: translateY(0);
+    transition: all 0.3s ease;
 }
 
 .contact-btn:hover {
-    transform: translateY(-3px);
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
-.contact-btn img {
-    width: 24px;
-    height: 24px;
+.contact-info {
+    text-align: center;
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 15px;
+    margin: 3rem auto;
+    max-width: 600px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
 }
+
+.contact-details {
+    background: rgba(255,255,255,0.95);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 2.5rem;
+    margin: 0 auto;
+    max-width: 600px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+    border: 1px solid rgba(255,255,255,0.18);
+}
+
+.contact-details p {
+    margin: 1.5rem 0;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contact-details i {
+    color: var(--purpureus);
+    font-size: 1.2rem;
+}
+
 
 .whatsapp {
     background-color: #25D366;
@@ -248,10 +287,6 @@ nav {
     background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
 }
 
-.contact-info {
-    text-align: center;
-    color: var(--battleship-gray);
-}
 
 /* Footer */
 footer {
