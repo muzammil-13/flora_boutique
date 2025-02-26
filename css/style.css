@@ -18,6 +18,29 @@ body {
     color: var(--eerie-black);
 }
 
+h1 {
+    animation: colorCycle 8s infinite;
+  }
+  
+  @keyframes colorCycle {
+    0% {
+      color: var(--white);
+    }
+    25% {
+      color: var(--purpureus);
+    }
+    50% {
+      color: var(--lilac);
+    }
+    75% {
+      color: var(--battleship-gray);
+    }
+    100% {
+      color: var(--eerie-black);
+    }
+  }
+  
+
 h1, h2, h3 {
     font-family: 'Playfair Display', serif;
 }
